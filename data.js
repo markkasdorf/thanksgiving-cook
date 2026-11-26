@@ -472,7 +472,7 @@ const DISHES = [
    "{{6 oz|170 g}} diced pancetta",
    "4 shallots ({{about 6 oz|160 g}}), halved and thinly sliced",
    "{{3 Tbsp|40 g}} olive oil",
-   "{{½ cup|128 g}} balsamic vinegar",
+   "{{¼ cup|80 g}} thick balsamic (or {{½ cup|128 g}} regular)",
    "{{2 Tbsp|42 g}} honey",
    "{{1½ oz|45 g}} Parmigiano, shaved with a peeler",
    "1 lemon, for zest",
@@ -490,7 +490,7 @@ const DISHES = [
    [
     "09:30",
     "Mk",
-    "Glaze: {{½ cup|128 g}} balsamic and {{2 Tbsp|42 g}} honey in a small pan on medium-low. Simmer until reduced by about half and it coats a spoon, about 8 minutes. Into a jar.",
+    "Glaze, with the thick balsamic: {{¼ cup|80 g}} thick balsamic and {{1 Tbsp|21 g}} honey in a small pan on low, just until blended, about 1 minute. Don't simmer it: it's already reduced. Taste: if it's sweet enough, skip the honey. Too thick to drizzle? A teaspoon of water. (With thin balsamic instead: {{½ cup|128 g}} plus {{2 Tbsp|42 g}} honey, simmered about 8 minutes until reduced by half.) Into a jar.",
     "Glaze"
    ],
    [
