@@ -24,7 +24,7 @@ const DISHES = [
    ],
    [
     "08:40",
-    "Mk",
+    "M",
     "Keg set-up: scoop out old ash. Foil-wrapped metal plate where the deflector goes, a big pan with {{1½ in|4 cm}} of water on it, grate on top. Leave {{1–2 in|3–5 cm}} of space all round the edges for air. {{15–20 lb|7–9 kg}} lump charcoal and the wood next to the Keg.",
     "Keg set-up"
    ],
@@ -48,7 +48,7 @@ const DISHES = [
    ],
    [
     "10:00",
-    "B",
+    "M",
     "Keg watch: read the dome now and then. Tell Mark if it leaves 300–350°F.",
     "Keg watch"
    ],
@@ -96,13 +96,13 @@ const DISHES = [
   "steps": [
    [
     "09:00",
-    "K",
+    "M",
     "Out of the brine. Check the cavity is empty (no neck or giblet bag). Rinse inside and out. Pat dry inside and out. Onto the rack in the roasting pan. Pour the brine away outside. Then scrub the sink and counter with hot soapy water: raw turkey was there, and the broccoli drains next.",
     "Out of brine, dry, rack"
    ],
    [
     "09:45",
-    "K",
+    "M",
     "Oven to 500°F. Move a second rack above where the bird will sit and check a {{13x9|33x23 cm}} pan fits over it (the gratin goes there). Microwave 1 apple and ½ onion (both cut up), 1 cinnamon stick and {{1 cup|240 g}} water for 5 minutes.",
     "Oven 500°F, rack, aromatics"
    ],
@@ -182,19 +182,19 @@ const DISHES = [
    ],
    [
     "10:45",
-    "C",
+    "K",
     "Second pot, medium-low: melt {{5 Tbsp|71 g}} butter. When the foam settles, whisk in {{6 Tbsp|47 g}} flour. Stir constantly until nutty brown, about 10 minutes.",
     "Brown roux"
    ],
    [
     "10:55",
-    "C",
+    "K",
     "Whisk in the hot broth (all {{8 cups|1.9 litres}}) a little at a time, hard. Then {{1½ cups|355 g}} white wine. Boil, then simmer on medium-low 30 minutes until slightly thick. Turn it off.",
     "Broth + wine, simmer 30"
    ],
    [
     "11:00",
-    "C",
+    "K",
     "Cut the gristle off the gizzards. Dice the hearts and gizzards. Into the fridge.",
     "Dice giblets"
    ],
@@ -235,7 +235,7 @@ const DISHES = [
   "name": "Au gratin potatoes",
   "where": "Main oven",
   "color": "#c9a227",
-  "lead": "M",
+  "lead": "Mk",
   "goal": "Cheese top at 12:55; out at 1:30.",
   "ingredients": [
    "{{6 lb|2.7 kg}} russet potatoes ({{about 5½ lb|2450 g}} once peeled)",
@@ -254,49 +254,49 @@ const DISHES = [
   "steps": [
    [
     "10:00",
-    "S",
+    "Mk",
     "Peel the {{6 lb|2.7 kg}} of potatoes. Keep them whole in a bowl of cold water so they don't go grey. Pat dry just before slicing. (Soaking whole is fine; it's the slices that mustn't be rinsed.)",
     "Peel potatoes"
    ],
    [
     "10:15",
-    "M",
+    "Mk",
     "Infuse the cream: {{3 cups|710 g}} heavy cream, 5 smashed garlic cloves, 6 thyme sprigs, 1 bay leaf and a few gratings of nutmeg to a bare simmer. Off the heat, cover, 15 minutes.",
     "Infuse cream"
    ],
    [
     "10:30",
-    "M",
+    "Mk",
     "Strain into your biggest bowl, pressing the garlic. Stir in {{6 tsp Diamond Crystal salt (3 tsp Morton)|18 g kosher salt}} and {{1 tsp|2 g}} pepper. Butter the pan with {{1 Tbsp|14 g}} butter. Mix {{8 oz|225 g}} Gruyère and {{3 oz|85 g}} Parmigiano; bag a third of it ({{about 1 cup|100 g}}) for later. Whisk the rest into the warm cream.",
     "Strain, cheese, pan"
    ],
    [
     "10:45",
-    "M",
+    "Mk",
     "Glove on. Slice the potatoes {{⅛ inch|3 mm}} on the mandoline straight into the cream, tossing so every slice is coated. Don't rinse them.",
     "Mandoline"
    ],
    [
     "11:00",
-    "M",
+    "Mk",
     "Square up stacks like a deck of cards and stand them on edge in the {{13x9|33x23 cm}} pan, packed tight. Pour cream to halfway up. Foil on tight.",
     "Pack the pan, foil"
    ],
    [
     "11:30",
-    "M",
+    "Mk",
     "Into the oven on the top rack, beside the bird, once the oven is down to 350°F. Covered.",
     "In at 350°F, covered"
    ],
    [
     "12:55",
-    "M",
+    "Mk",
     "Knife test. Foil off. Brush the ridges with {{2 Tbsp|28 g}} melted butter, scatter the bagged cheese. Back in at 375°F, uncovered, until deep golden with crisp edges, about 30 minutes (10 more if the knife met real resistance).",
     "Cheese top, 375°F"
    ],
    [
     "13:30",
-    "M",
+    "Mk",
     "Out. Rest 10 minutes. Scatter {{1 tsp|1 g}} thyme leaves.",
     "Out, thyme"
    ]
@@ -465,7 +465,7 @@ const DISHES = [
   "name": "Brussels sprouts",
   "where": "Stovetop, 12-inch skillet",
   "color": "#556b2f",
-  "lead": "Mk",
+  "lead": "S",
   "goal": "Cooked and glazed early. Reheated in the skillet at 2:35.",
   "ingredients": [
    "{{3 lb|1.36 kg}} Brussels sprouts",
@@ -483,37 +483,37 @@ const DISHES = [
   "steps": [
    [
     "09:00",
-    "Mk",
+    "S",
     "Trim the ends of {{3 lb|1.36 kg}} sprouts and pull off loose leaves. Halve each sprout; quarter the big ones. Bag them in the fridge.",
     "Trim and halve"
    ],
    [
     "09:30",
-    "Mk",
+    "S",
     "Glaze, with the thick balsamic: {{¼ cup|60 ml}} thick balsamic and {{1 Tbsp|21 g}} honey in a small pan on low, just until blended, about 1 minute. Don't simmer it: it's already reduced. Taste: if it's sweet enough, skip the honey. Too thick to drizzle? A teaspoon of water. (With thin balsamic instead: {{½ cup|128 g}} plus {{2 Tbsp|42 g}} honey, simmered about 8 minutes until reduced by half.) Into a jar. (Today the pancetta fat went into the glaze too. That's fine: it's now a warm balsamic dressing. Shake or whisk it before using.)",
     "Glaze"
    ],
    [
     "09:45",
-    "Mk",
+    "S",
     "{{6 oz|170 g}} diced pancetta into a cold {{12-inch|30 cm}} skillet, medium heat, until crisp, about 9 minutes. Lift it out. Fry 4 sliced shallots in the fat until golden, about 6 minutes; onto paper towel. Pour the fat into a jar. Once cool, pancetta and shallots go in the fridge in separate containers (not on the counter). The fat jar can stay out.",
     "Pancetta and shallots"
    ],
    [
     "12:25",
-    "Mk",
+    "S",
     "Spread the glazed sprouts in a wide dish, uncovered, to cool fast. Then into the fridge.",
     "Cool, fridge"
    ],
    [
     "13:35",
-    "Mk",
+    "S",
     "12-inch skillet on MEDIUM (the glaze burns) with {{1 Tbsp|13 g}} olive oil. Half the sprouts, stirring, about 5 minutes until hot. Into a bowl under foil. Repeat with the rest.",
     "Reheat in skillet"
    ],
    [
     "13:50",
-    "Mk",
+    "S",
     "Onto the platter. Shave {{1½ oz|45 g}} Parmigiano and zest 1 lemon over. To the table.",
     "Finish, serve"
    ]
