@@ -543,24 +543,24 @@ const OTHERS = [
   "Light the Weber; set it for about 350°F, burners under one side only."
  ],
  [
-  "13:20",
-  "L",
-  "Spanakopita into the main oven at 375°F once the bird is out, about 40–45 minutes."
- ],
- [
   "13:25",
   "K",
   "Stacey's stuffing and scalloped carrots into the Weber, covered, on the unlit side. Lid shut. Hot through in 30–40 minutes."
  ],
  [
-  "14:05",
-  "K",
-  "Stacey's dishes hot through: turn the Weber to low and keep the lid shut until serving."
+  "13:40",
+  "L",
+  "Spanakopita (already baked): warm it in the toaster oven at 350°F, about 10 minutes a batch, until crisp. Keep it in the fridge until then."
+ ],
+ [
+  "14:00",
+  "L",
+  "Spanakopita out to the guests with the appetizers."
  ],
  [
   "14:05",
-  "L",
-  "Spanakopita out; to the guests with the appetizers."
+  "K",
+  "Stacey's dishes hot through: turn the Weber to low and keep the lid shut until serving."
  ],
  [
   "15:00",
