@@ -83,7 +83,7 @@ const DISHES = [
   "where": "Main oven",
   "color": "#b5651d",
   "lead": "M",
-  "goal": "Out about 1:15, breast 155–161°F, thigh 170°F+. Its drippings make the gravy.",
+  "goal": "In about 11:00; out about 2:00, breast 155–161°F, thigh 170°F+. Its drippings make the gravy.",
   "ingredients": [
    "{{16 lb|7.3 kg}} turkey, brined",
    "1 apple, ½ onion, 1 cinnamon stick, {{1 cup|240 g}} water (aromatics)",
@@ -106,33 +106,33 @@ const DISHES = [
     "Oven 500°F, rack, aromatics"
    ],
    [
-    "10:15",
+    "11:00",
     "M",
     "Hot aromatics, 4 rosemary sprigs and 6 sage leaves into the cavity. Rub the skin with about {{2 Tbsp|28 g}} oil. Lowest rack at 500°F. Timer 30 minutes.",
     "In at 500°F"
    ],
    [
-    "10:45",
+    "11:30",
     "M",
     "Oven down to 350°F. Probe in the thickest part of the breast. About {{1 cup|240 g}} of water into the pan so the drippings don't scorch.",
     "Down to 350°F, probe, water"
    ],
    [
-    "12:30",
+    "13:00",
     "M",
     "Check the pan: if it's dry, add {{½ cup|120 g}} water so the drippings don't burn.",
     "Pan check"
    ],
    [
-    "13:15",
+    "14:00",
     "M",
     "Out at breast 155–161°F and thigh 170°F+. Bird onto the board, tented with foil. Keep the pan: the drippings go to Krista for the gravy.",
     "Out, tent, save pan"
    ],
    [
-    "14:25",
+    "14:40",
     "M",
-    "Carve onto a platter.",
+    "Carve onto a platter. If someone else can carve the smoked bird, hand it to them.",
     "Carve"
    ]
   ],
@@ -197,15 +197,15 @@ const DISHES = [
     "Dice giblets"
    ],
    [
-    "13:15",
+    "13:50",
     "K",
     "Gravy back to a simmer.",
     "Back to simmer"
    ],
    [
-    "13:30",
+    "14:05",
     "K",
-    "Spoon the fat off the roast pan. Strain the drippings into the gravy, pressing the solids. Diced giblets in. Lowest heat. Taste before any salt.",
+    "Spoon the fat off the roast pan. Add the drippings to the gravy a little at a time, tasting: brined drippings are salty. Diced giblets in. Bring back to a simmer, stirring, then hold on low.",
     "Drippings + giblets in"
    ],
    [
@@ -274,19 +274,19 @@ const DISHES = [
     "Pack the pan, foil"
    ],
    [
-    "11:15",
+    "11:30",
     "M",
-    "Into the oven on the top rack, beside the bird, at 350°F, covered.",
+    "Into the oven on the top rack, beside the bird, once the oven is down to 350°F. Covered.",
     "In at 350°F, covered"
    ],
    [
-    "12:30",
+    "12:45",
     "M",
     "When a knife slides in with slight resistance, foil off. Bake on, uncovered, until pale golden and fully tender (about 35 minutes).",
     "Foil off"
    ],
    [
-    "13:05",
+    "13:20",
     "M",
     "Out. Rest on the counter.",
     "Out, rest"
@@ -358,20 +358,26 @@ const DISHES = [
    [
     "13:45",
     "K",
-    "Into the oven at 375°F. Timer 35 minutes.",
+    "Into the oven, beside the bird (350°F until the bird comes out, then 375°F). Timer 35 minutes.",
     "In at 375°F"
    ],
    [
     "14:10",
     "K",
-    "Topping: {{1½ cups|40 g}} corn flakes tossed with {{2 Tbsp|28 g}} melted butter and {{2 Tbsp|30 g}} brown sugar.",
+    "Topping: {{1½ cups|40 g}} corn flakes tossed with {{2 Tbsp|28 g}} melted butter and {{2 Tbsp|30 g}} brown sugar. The {{3 cups|150 g}} marshmallows go on separately, later.",
     "Make topping"
    ],
    [
     "14:20",
     "K",
-    "Corn flakes and {{about 3 cups|about 150 g}} mini marshmallows on. Back in about 20 minutes until puffed and golden. Look at 10 minutes: marshmallows go from golden to black fast.",
+    "Corn flakes on. Back in for 10 minutes.",
     "Topping on"
+   ],
+   [
+    "14:30",
+    "K",
+    "Marshmallows on ({{about 3 cups|about 150 g}}). Back in 5–10 minutes; look after 3. Out as soon as they're puffed and golden.",
+    "Marshmallows on"
    ],
    [
     "14:40",
@@ -472,7 +478,7 @@ const DISHES = [
    "{{6 oz|170 g}} diced pancetta",
    "4 shallots ({{about 6 oz|160 g}}), halved and thinly sliced",
    "{{3 Tbsp|40 g}} olive oil",
-   "{{¼ cup|80 g}} thick balsamic (or {{½ cup|128 g}} regular)",
+   "{{¼ cup|60 ml}} thick balsamic (or {{½ cup|128 g}} regular)",
    "{{2 Tbsp|42 g}} honey",
    "{{1½ oz|45 g}} Parmigiano, shaved with a peeler",
    "1 lemon, for zest",
@@ -490,13 +496,13 @@ const DISHES = [
    [
     "09:30",
     "Mk",
-    "Glaze, with the thick balsamic: {{¼ cup|80 g}} thick balsamic and {{1 Tbsp|21 g}} honey in a small pan on low, just until blended, about 1 minute. Don't simmer it: it's already reduced. Taste: if it's sweet enough, skip the honey. Too thick to drizzle? A teaspoon of water. (With thin balsamic instead: {{½ cup|128 g}} plus {{2 Tbsp|42 g}} honey, simmered about 8 minutes until reduced by half.) Into a jar.",
+    "Glaze, with the thick balsamic: {{¼ cup|60 ml}} thick balsamic and {{1 Tbsp|21 g}} honey in a small pan on low, just until blended, about 1 minute. Don't simmer it: it's already reduced. Taste: if it's sweet enough, skip the honey. Too thick to drizzle? A teaspoon of water. (With thin balsamic instead: {{½ cup|128 g}} plus {{2 Tbsp|42 g}} honey, simmered about 8 minutes until reduced by half.) Into a jar.",
     "Glaze"
    ],
    [
     "09:45",
     "Mk",
-    "{{6 oz|170 g}} diced pancetta into a cold {{12-inch|30 cm}} skillet, medium heat, until crisp, about 9 minutes. Lift it out. Fry 4 sliced shallots in the fat until golden, about 6 minutes; onto paper towel. Pour the fat into a jar.",
+    "{{6 oz|170 g}} diced pancetta into a cold {{12-inch|30 cm}} skillet, medium heat, until crisp, about 9 minutes. Lift it out. Fry 4 sliced shallots in the fat until golden, about 6 minutes; onto paper towel. Pour the fat into a jar. Once cool, pancetta and shallots go in the fridge in separate containers (not on the counter). The fat jar can stay out.",
     "Pancetta and shallots"
    ],
    [
@@ -526,7 +532,7 @@ const DISHES = [
    [
     "14:45",
     "Mk",
-    "Toss everything with the pancetta, shallots and three quarters of the glaze. Onto the platter. Drizzle the rest. Shave {{1½ oz|45 g}} Parmigiano and zest 1 lemon over. Taste before any more salt. To the table.",
+    "Warm the pancetta and shallots in the skillet for a minute. Toss everything with them, shallots and three quarters of the glaze. Onto the platter. Drizzle the rest. Shave {{1½ oz|45 g}} Parmigiano and zest 1 lemon over. Taste before any more salt. To the table.",
     "Toss, finish, serve"
    ]
   ],
@@ -539,7 +545,7 @@ const DISHES = [
 const OTHERS = [
  [
   "13:15",
-  "M",
+  "B",
   "Light the Weber; set it for about 350°F, burners under one side only."
  ],
  [
@@ -560,7 +566,7 @@ const OTHERS = [
  [
   "14:05",
   "K",
-  "Stacey's dishes hot through: turn the Weber to low and keep the lid shut until serving."
+  "Check the middle of Stacey's dishes is steaming hot (165°F on the instant-read). Then turn the Weber to low, lid shut, until serving."
  ],
  [
   "15:00",
