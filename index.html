@@ -10,7 +10,7 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 header{padding:20px 18px 8px;max-width:980px;margin:0 auto}
 h1{font:700 30px/1.1 Georgia,"Times New Roman",serif;margin:0}
-.sub{color:var(--soft);margin-top:4px}
+.sub{color:var(--soft);margin-top:6px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.units{display:inline-flex;background:#ece2d0;border-radius:999px;padding:3px}.units button{border:0;background:transparent;font:600 14px/1 inherit;padding:7px 13px;border-radius:999px;color:var(--soft);cursor:pointer}.units button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}.amt{font-weight:600}
 .clock{font-variant-numeric:tabular-nums;font-weight:600;color:var(--accent)}
 nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:10px 18px;max-width:980px;margin:0 auto;scrollbar-width:none}
@@ -65,7 +65,7 @@ ul.ing{margin:10px 0 0;padding-left:20px}ul.ing li{margin:4px 0}
 </style></head><body>
 <header>
  <h1>Thanksgiving cook day</h1>
- <div class="sub">Sit down at 3:00 · <span class="clock" id="clock"></span></div>
+ <div class="sub"><span>Sit down at 3:00 · <span class="clock" id="clock"></span></span><span class="units" id="units"><button data-u="us">Cups</button><button data-u="metric">Grams</button></span></div>
 </header>
 <nav><div class="chips" id="nav"></div></nav>
 <main id="main"></main>
@@ -73,7 +73,8 @@ ul.ing{margin:10px 0 0;padding-left:20px}ul.ing li{margin:4px 0}
 <script>
 const DAY="2026-11-26";
 const $=s=>document.querySelector(s);
-const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let units=localStorage.getItem("tg-units")||"us";
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])).replace(/\{\{([^|}]*)\|([^}]*)\}\}/g,(m,a,b)=>`<span class="amt">${units==="metric"?b:a}</span>`);
 const fmt=t=>{let [h,m]=t.split(":").map(Number);const ap=h>=12?"pm":"am";h=h%12||12;return h+":"+String(m).padStart(2,"0")};
 const mins=t=>{const [h,m]=t.split(":").map(Number);return h*60+m};
 const nowMins=()=>{const d=new Date();const iso=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");return iso===DAY?d.getHours()*60+d.getMinutes():(location.hash.includes("demo")?600:null)};
@@ -120,10 +121,11 @@ function dish(d){const n=nowMins();const L=d.steps.map((s,i)=>({d,i,t:s[0],p:s[1
  <div class="card"><details open><summary>What you need</summary><ul class="ing">${d.ingredients.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></details></div>
  ${d.tips&&d.tips.length?`<div class="card tips"><h2 style="color:var(--ink)">Good to know</h2>${d.tips.map(t=>`<p>${esc(t)}</p>`).join("")}</div>`:""}`+foot();}
 const foot=()=>`<div class="foot">Ticks are saved on this phone only. The birds are done when the thermometer says so, not the clock.</div>`;
-function render(){nav();const h=location.hash.slice(1).split("&")[0];const d=DISHES.find(x=>x.id===h);d?dish(d):overview();
+function render(){document.querySelectorAll("#units button").forEach(b=>b.classList.toggle("on",b.dataset.u===units));nav();const h=location.hash.slice(1).split("&")[0];const d=DISHES.find(x=>x.id===h);d?dish(d):overview();
  const c=$("#main .step.cur");}
 function clock(){const d=new Date();$("#clock").textContent="now "+d.toLocaleTimeString([], {hour:"numeric",minute:"2-digit"});}
 document.addEventListener("click",e=>{const b=e.target.closest(".box");if(b){const id=b.closest(".step").dataset.id;ticks[id]=!ticks[id];if(!ticks[id])delete ticks[id];save();render();return}
+ const u=e.target.closest("[data-u]");if(u){units=u.dataset.u;localStorage.setItem("tg-units",units);render();return}
  const w=e.target.closest("[data-who]");if(w){who=w.dataset.who;localStorage.setItem("tg-who",who);render();}});
 addEventListener("hashchange",()=>{render();scrollTo(0,0)});
 clock();render();setInterval(()=>{clock();if(!document.querySelector(":focus"))render()},60000);
