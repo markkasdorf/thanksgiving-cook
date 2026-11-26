@@ -53,15 +53,15 @@ const DISHES = [
     "Keg watch"
    ],
    [
-    "12:30",
+    "12:25",
     "M",
-    "Check breast and thigh temperature. Estimate the pull time; it's often faster than planned. Top up the water pan with hot water if it's under {{½ in|1 cm}}. Turn the bird 180° if one side is browning faster.",
-    "Check temp"
+    "Check deep in the breast every 10 minutes. Off when the deepest reading is 155°F (thighs are already past 170°F). Foil over the legs, not the breast.",
+    "Check every 10 min"
    ],
    [
-    "13:25",
+    "12:45",
     "M",
-    "Off at breast 155–161°F and thigh 170°F+ (check the thigh with the instant-read). Tent with foil. Close the Keg's vents.",
+    "Off at 155–161°F deep in the breast. Tent loosely with foil. Rest it indoors somewhere warm. Close the Keg's vents. Times are an estimate: go by the probe.",
     "Off, tent"
    ],
    [
@@ -75,7 +75,8 @@ const DISHES = [
    "Smoked meat stays pink under the skin even when cooked. Trust the thermometer, not the colour.",
    "It rests 60–90 minutes under foil and stays hot. That rest is the day's buffer.",
    "Breast browning too fast? Lay a loose piece of foil over it."
-  ]
+  ],
+  "status": "Still cooking. Check deep in the breast every 10 minutes; off at 155°F."
  },
  {
   "id": "roast",
@@ -138,7 +139,8 @@ const DISHES = [
   ],
   "tips": [
    "Drippings from a brined bird are salty. Tell whoever finishes the gravy."
-  ]
+  ],
+  "status": "At 350°F, foil on the breast. First check at 1:00."
  },
  {
   "id": "gravy",
@@ -197,9 +199,15 @@ const DISHES = [
     "Dice giblets"
    ],
    [
-    "13:50",
+    "12:25",
     "K",
-    "Gravy back to a simmer.",
+    "Gravy base into the fridge now, lid on. Two hours off the heat is the limit.",
+    "Into the fridge"
+   ],
+   [
+    "13:45",
+    "K",
+    "Gravy out of the fridge and back to a simmer, stirring. (It went into the fridge at about 12:25: it had been off the heat since 11:30.)",
     "Back to simmer"
    ],
    [
@@ -219,7 +227,8 @@ const DISHES = [
    "Brined drippings are salty: taste before you salt.",
    "Too thin at 2:45? Whisk {{2 Tbsp|16 g}} cornstarch into {{¼ cup|60 g}} cold water, stir it in, simmer 1 minute.",
    "Between 11:30 and 1:15 keep the lid on. It's under two hours off the heat, which is fine."
-  ]
+  ],
+  "status": "Base done, on the stove. Into the fridge now; back on at 1:45."
  },
  {
   "id": "gratin",
@@ -307,7 +316,8 @@ const DISHES = [
   "tips": [
    "Bakes slower at 350°F than the recipe's 400°F, and the bird slows it too: go by the knife, not the clock.",
    "If it won't fit above the bird, check whether the toaster oven takes the pan; if not, it goes in after the bird comes out at 1:15."
-  ]
+  ],
+  "status": "In the oven, covered, beside the bird."
  },
  {
   "id": "sweet",
@@ -350,7 +360,13 @@ const DISHES = [
     "Into pan, fridge"
    ],
    [
-    "13:00",
+    "12:25",
+    "K",
+    "The pan has been on the counter: into the fridge now. Out again at 1:15.",
+    "Into the fridge"
+   ],
+   [
+    "13:15",
     "K",
     "Out of the fridge to take the chill off.",
     "Out of fridge"
@@ -388,7 +404,8 @@ const DISHES = [
   ],
   "tips": [
    "Amounts are estimates; Krista's taste rules."
-  ]
+  ],
+  "status": "Mashed in the pan, on the counter. Into the fridge now."
  },
  {
   "id": "broccoli",
@@ -464,7 +481,8 @@ const DISHES = [
   "tips": [
    "No American cheese: the white sauce keeps it smooth. Grate your own cheddar (bagged shreds go grainy) and never boil it once the cheese is in.",
    "Gone thick or grainy? Off the heat, a splash of warm milk, whisk hard."
-  ]
+  ],
+  "status": "Blanched broccoli and sauce both in the fridge."
  },
  {
   "id": "brussels",
@@ -472,7 +490,7 @@ const DISHES = [
   "where": "Stovetop, 12-inch skillet",
   "color": "#556b2f",
   "lead": "Mk",
-  "goal": "Prep done by 10:15. Seared on the stovetop in three batches from 2:15.",
+  "goal": "Cooked and glazed early. Reheated in the skillet at 2:35.",
   "ingredients": [
    "{{3 lb|1.36 kg}} Brussels sprouts",
    "{{6 oz|170 g}} diced pancetta",
@@ -506,43 +524,37 @@ const DISHES = [
     "Pancetta and shallots"
    ],
    [
-    "14:05",
+    "12:25",
     "Mk",
-    "Set up by the stove: sprouts, olive oil, salt, pepper, a big bowl, foil. Glaze (warmed and whisked), pancetta, shallots, Parmesan and lemon lined up for the finish.",
-    "Set up by the stove"
+    "Spread the glazed sprouts in a wide dish, uncovered, to cool fast. Then into the fridge.",
+    "Cool, fridge"
    ],
    [
-    "14:15",
+    "14:35",
     "Mk",
-    "Batch 1: skillet on medium-high with {{2 Tbsp|26 g}} olive oil. A third of the sprouts, cut side down, one layer. Don't touch them for 5 minutes, until the faces are deep brown. Add {{2 Tbsp|30 g}} water, lid on, 2 minutes, until a knife slides into the core. A pinch of salt. Into the bowl, foil over.",
-    "Batch 1"
+    "12-inch skillet on MEDIUM (not high: the glaze burns) with {{1 Tbsp|13 g}} olive oil. Half the sprouts, stirring, 4–5 minutes until hot through. Into a bowl under foil. Repeat with the rest.",
+    "Reheat in skillet"
    ],
    [
-    "14:24",
+    "14:50",
     "Mk",
-    "Batch 2, the same way: {{2 Tbsp|26 g}} olive oil, a third of the sprouts, 5 minutes, {{2 Tbsp|30 g}} water, lid on 2 minutes.",
-    "Batch 2"
-   ],
-   [
-    "14:33",
-    "Mk",
-    "Batch 3, the same way: {{2 Tbsp|26 g}} olive oil, the last of the sprouts, 5 minutes, {{2 Tbsp|30 g}} water, lid on 2 minutes.",
-    "Batch 3"
-   ],
-   [
-    "14:45",
-    "Mk",
-    "Warm the pancetta and shallots in the skillet for a minute. Toss everything with them, shallots and three quarters of the glaze. Onto the platter. Drizzle the rest. Shave {{1½ oz|45 g}} Parmigiano and zest 1 lemon over. Taste before any more salt. To the table.",
-    "Toss, finish, serve"
+    "Onto the platter. A drizzle of any glaze left over. Shave {{1½ oz|45 g}} Parmigiano and zest 1 lemon over. To the table.",
+    "Finish, serve"
    ]
   ],
   "tips": [
    "Pancetta is salty: taste before adding more salt.",
    "Don't crowd the pan: one layer, or they steam instead of browning."
-  ]
+  ],
+  "status": "Cooked and glazed early. Into the fridge; reheat in the skillet at 2:35."
  }
 ];
 const OTHERS = [
+ [
+  "12:25",
+  "K",
+  "Stacey's stuffing and carrots into the fridge until 1:25 if there's room."
+ ],
  [
   "13:15",
   "B",
@@ -574,3 +586,4 @@ const OTHERS = [
   "Sit down."
  ]
 ];
+const STATUS_AT = "12:25";

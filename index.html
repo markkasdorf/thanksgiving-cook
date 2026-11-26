@@ -39,7 +39,7 @@ td .p{color:var(--soft);font-size:12px;font-weight:600}
 .hero{border-left:8px solid;padding-left:14px}
 .hero h2{font:700 28px/1.1 Georgia,serif;margin:0}
 .meta{color:var(--soft);margin-top:6px}
-.goal{margin-top:10px;font-weight:600}
+.goal{margin-top:10px;font-weight:600}.status{margin-top:10px;background:var(--now);border-radius:10px;padding:8px 10px}
 ol.steps{list-style:none;margin:0;padding:0}
 .step{display:grid;grid-template-columns:62px 1fr 44px;gap:12px;align-items:start;padding:14px 0;border-top:1px solid var(--line)}
 .step:first-child{border-top:0}
@@ -113,10 +113,11 @@ function overview(){const n=nowMins();
  const list=all.filter(o=>who==="all"||o.p===who);
  const tl=`<div class="card tl"><h2>Everyone's steps, in order</h2><div class="who-filter">${people.map(p=>`<button class="chip ${who===p?"on":""}" data-who="${p}">${p==="all"?"Everyone":PEOPLE[p]}</button>`).join("")}</div>
  <ol class="steps">${list.map(o=>{const L=o.d.id==="other"?null:o.d.steps.map((s,i)=>({t:s[0]}));const cls=L?state(L,o.i,n):"";return stepRow(o,cls,true)}).join("")}</ol></div>`;
- $("#main").innerHTML=nowBox(n)+`<div class="card" style="padding:12px 16px"><h2 style="margin:0">The day at a glance</h2><div class="meta" style="margin-top:2px">Tap a dish for its timeline and recipe. Swipe the table sideways.</div></div>`+grid+tl+foot();}
+ const where=`<div class="card"><h2>Where everything is${typeof STATUS_AT!=="undefined"?" ("+fmt(STATUS_AT)+")":""}</h2>${DISHES.filter(d=>d.status).map(d=>`<div class="nowline"><span class="tag" style="background:${d.color}">${esc(d.name)}</span><span>${esc(d.status)}</span></div>`).join("")}</div>`;
+ $("#main").innerHTML=nowBox(n)+where+`<div class="card" style="padding:12px 16px"><h2 style="margin:0">The day at a glance</h2><div class="meta" style="margin-top:2px">Tap a dish for its timeline and recipe. Swipe the table sideways.</div></div>`+grid+tl+foot();}
 function dish(d){const n=nowMins();const L=d.steps.map((s,i)=>({d,i,t:s[0],p:s[1],x:s[2],id:d.id+"-"+i}));
  $("#main").innerHTML=`<div class="card"><div class="hero" style="border-color:${d.color}"><h2>${d.name}</h2>
- <div class="meta">${d.where} · led by ${PEOPLE[d.lead]}</div><div class="goal">${esc(d.goal)}</div></div></div>
+ <div class="meta">${d.where} · led by ${PEOPLE[d.lead]}</div><div class="goal">${esc(d.goal)}</div>${d.status?`<div class="status"><b>Now (${typeof STATUS_AT!=="undefined"?fmt(STATUS_AT):""}):</b> ${esc(d.status)}</div>`:""}</div></div>
  <div class="card"><h2>Timeline</h2><ol class="steps">${L.map((o,i)=>stepRow(o,state(L,i,n),false)).join("")}</ol></div>
  <div class="card"><details open><summary>What you need</summary><ul class="ing">${d.ingredients.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></details></div>
  ${d.tips&&d.tips.length?`<div class="card tips"><h2 style="color:var(--ink)">Good to know</h2>${d.tips.map(t=>`<p>${esc(t)}</p>`).join("")}</div>`:""}`+foot();}
