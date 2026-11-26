@@ -6,7 +6,7 @@ const DISHES = [
   "where": "Bupa's Keg",
   "color": "#8a4b2a",
   "lead": "M",
-  "goal": "Off the Keg about 1:25, breast 155–161°F, thigh 170°F+",
+  "goal": "Done. Carve at 1:30 for a 2:00 sit-down.",
   "ingredients": [
    "{{16 lb|7.3 kg}} turkey, brined",
    "Canola oil to coat, about {{2 Tbsp|28 g}}",
@@ -59,15 +59,15 @@ const DISHES = [
     "Check every 10 min"
    ],
    [
-    "12:45",
+    "12:40",
     "M",
-    "Off at 155–161°F deep in the breast. Tent loosely with foil. Rest it indoors somewhere warm. Close the Keg's vents. Times are an estimate: go by the probe.",
-    "Off, tent"
+    "Off at 152°F deepest breast; rested 15 minutes, then wrapped in foil and towels in a clean cooler.",
+    "Off, into cooler"
    ],
    [
-    "14:25",
+    "13:30",
     "M",
-    "Carve onto a platter. Bag the carcass for Friday's stock.",
+    "Out of the cooler. Carve onto a platter. This is the juicy breast: serve it as the main white meat.",
     "Carve"
    ]
   ],
@@ -76,7 +76,7 @@ const DISHES = [
    "It rests 60–90 minutes under foil and stays hot. That rest is the day's buffer.",
    "Breast browning too fast? Lay a loose piece of foil over it."
   ],
-  "status": "Still cooking. Check deep in the breast every 10 minutes; off at 155°F."
+  "status": "Off. Wrapped and holding in the cooler. Carve at 1:30."
  },
  {
   "id": "roast",
@@ -84,7 +84,7 @@ const DISHES = [
   "where": "Main oven",
   "color": "#b5651d",
   "lead": "M",
-  "goal": "In about 11:00; out about 2:00, breast 155–161°F, thigh 170°F+. Its drippings make the gravy.",
+  "goal": "Breast slices rescued in warm broth and butter. Dark meat is fine.",
   "ingredients": [
    "{{16 lb|7.3 kg}} turkey, brined",
    "1 apple, ½ onion, 1 cinnamon stick, {{1 cup|240 g}} water (aromatics)",
@@ -119,28 +119,28 @@ const DISHES = [
     "Down to 350°F, probe, water"
    ],
    [
-    "13:00",
+    "12:50",
     "M",
-    "Check the pan: if it's dry, add {{½ cup|120 g}} water so the drippings don't burn.",
-    "Pan check"
+    "Out early: breast 172–190°F, thighs 180°F+. Rest uncovered 15–20 minutes, then loosely tented. Drippings into a jug for the gravy.",
+    "Out, rest"
    ],
    [
-    "14:00",
+    "13:15",
     "M",
-    "Out at breast 155–161°F and thigh 170°F+. Bird onto the board, tented with foil. Keep the pan: the drippings go to Krista for the gravy.",
-    "Out, tent, save pan"
+    "Carve the breast, slice ½ inch thick. Slices into a foil pan with {{1 cup|240 g}} warm broth and {{2–3 Tbsp|30–40 g}} butter in pieces. Legs and thighs in too. Foil on tight.",
+    "Slice into broth"
    ],
    [
-    "14:40",
+    "13:30",
     "M",
-    "Carve onto a platter. If someone else can carve the smoked bird, hand it to them.",
-    "Carve"
+    "Pan into the main oven at 375°F for 15 minutes, until hot.",
+    "Warm in oven"
    ]
   ],
   "tips": [
    "Drippings from a brined bird are salty. Tell whoever finishes the gravy."
   ],
-  "status": "At 350°F, foil on the breast. First check at 1:00."
+  "status": "Out early and overcooked in the breast. Resting; slices go into broth and butter at 1:15."
  },
  {
   "id": "gravy",
@@ -205,22 +205,22 @@ const DISHES = [
     "Into the fridge"
    ],
    [
-    "13:45",
+    "13:20",
     "K",
-    "Gravy out of the fridge and back to a simmer, stirring. (It went into the fridge at about 12:25: it had been off the heat since 11:30.)",
+    "Base out of the fridge, back to a simmer, stirring.",
     "Back to simmer"
    ],
    [
-    "14:05",
+    "13:25",
     "K",
-    "Spoon the fat off the roast pan. Add the drippings to the gravy a little at a time, tasting: brined drippings are salty. Diced giblets in. Bring back to a simmer, stirring, then hold on low.",
+    "Spoon the fat off the drippings in the jug. Add the drippings a little at a time, tasting (they're salty and concentrated). Diced giblets in. Salt only at the end. Hold on low.",
     "Drippings + giblets in"
    ],
    [
-    "14:45",
+    "13:50",
     "K",
-    "Back to a simmer. Season. Into the gravy boat.",
-    "Season, into boat"
+    "Into the gravy boat.",
+    "Into boat"
    ]
   ],
   "tips": [
@@ -228,15 +228,15 @@ const DISHES = [
    "Too thin at 2:45? Whisk {{2 Tbsp|16 g}} cornstarch into {{¼ cup|60 g}} cold water, stir it in, simmer 1 minute.",
    "Between 11:30 and 1:15 keep the lid on. It's under two hours off the heat, which is fine."
   ],
-  "status": "Base done, on the stove. Into the fridge now; back on at 1:45."
+  "status": "Base in the fridge. Finish from 1:20."
  },
  {
   "id": "gratin",
   "name": "Au gratin potatoes",
-  "where": "Main oven, top rack",
+  "where": "Main oven",
   "color": "#c9a227",
   "lead": "M",
-  "goal": "Bakes beside the bird, then a cheese top and crisp at 2:15.",
+  "goal": "Cheese top at 12:55; out at 1:30.",
   "ingredients": [
    "{{6 lb|2.7 kg}} russet potatoes ({{about 5½ lb|2450 g}} once peeled)",
    "{{3 cups|710 g}} heavy cream",
@@ -289,25 +289,13 @@ const DISHES = [
     "In at 350°F, covered"
    ],
    [
-    "12:45",
+    "12:55",
     "M",
-    "When a knife slides in with slight resistance, foil off. Bake on, uncovered, until pale golden and fully tender (about 35 minutes).",
-    "Foil off"
-   ],
-   [
-    "13:20",
-    "M",
-    "Out. Rest on the counter.",
-    "Out, rest"
-   ],
-   [
-    "14:15",
-    "M",
-    "Oven at 375°F. Brush the ridges with {{2 Tbsp|28 g}} melted butter, scatter the bagged cheese ({{about 1 cup|100 g}}). Bake uncovered until deep golden with dark crisp edges, about 30 minutes.",
+    "Knife test. Foil off. Brush the ridges with {{2 Tbsp|28 g}} melted butter, scatter the bagged cheese. Back in at 375°F, uncovered, until deep golden with crisp edges, about 30 minutes (10 more if the knife met real resistance).",
     "Cheese top, 375°F"
    ],
    [
-    "14:45",
+    "13:30",
     "M",
     "Out. Rest 10 minutes. Scatter {{1 tsp|1 g}} thyme leaves.",
     "Out, thyme"
@@ -317,15 +305,15 @@ const DISHES = [
    "Bakes slower at 350°F than the recipe's 400°F, and the bird slows it too: go by the knife, not the clock.",
    "If it won't fit above the bird, check whether the toaster oven takes the pan; if not, it goes in after the bird comes out at 1:15."
   ],
-  "status": "In the oven, covered, beside the bird."
+  "status": "In the oven; cheese top going on now at 375°F."
  },
  {
   "id": "sweet",
   "name": "Sweet potato casserole",
-  "where": "Microwave, then main oven",
+  "where": "Toaster oven",
   "color": "#d2691e",
   "lead": "K",
-  "goal": "Mash in the pan by 11:30. Into the oven at 1:45; topping on at 2:20.",
+  "goal": "Toaster oven from 12:55; out about 1:40.",
   "ingredients": [
    "{{4 lb|1.8 kg}} sweet potatoes (6–7 medium)",
    "{{1 stick (8 Tbsp)|113 g}} butter",
@@ -360,52 +348,40 @@ const DISHES = [
     "Into pan, fridge"
    ],
    [
-    "12:25",
+    "12:55",
     "K",
-    "The pan has been on the counter: into the fridge now. Out again at 1:15.",
-    "Into the fridge"
+    "Into the toaster oven at 375°F, covered with foil so the top doesn't scorch near the element. 30 minutes.",
+    "Toaster oven, covered"
    ],
    [
-    "13:15",
+    "13:20",
     "K",
-    "Out of the fridge to take the chill off.",
-    "Out of fridge"
+    "Topping: {{1½ cups|40 g}} corn flakes tossed with {{2 Tbsp|28 g}} melted butter and {{2 Tbsp|30 g}} brown sugar.",
+    "Make topping"
+   ],
+   [
+    "13:25",
+    "K",
+    "Foil off. Corn flakes on. 10 minutes.",
+    "Corn flakes on"
+   ],
+   [
+    "13:35",
+    "K",
+    "Marshmallows on ({{about 3 cups|about 150 g}}). Stay at the toaster oven: 2–3 minutes may be enough that close to the element. Out the moment they're golden.",
+    "Marshmallows, watch"
    ],
    [
     "13:45",
     "K",
-    "Into the oven, beside the bird (350°F until the bird comes out, then 375°F). Timer 35 minutes.",
-    "In at 375°F"
-   ],
-   [
-    "14:10",
-    "K",
-    "Topping: {{1½ cups|40 g}} corn flakes tossed with {{2 Tbsp|28 g}} melted butter and {{2 Tbsp|30 g}} brown sugar. The {{3 cups|150 g}} marshmallows go on separately, later.",
-    "Make topping"
-   ],
-   [
-    "14:20",
-    "K",
-    "Corn flakes on. Back in for 10 minutes.",
-    "Topping on"
-   ],
-   [
-    "14:30",
-    "K",
-    "Marshmallows on ({{about 3 cups|about 150 g}}). Back in 5–10 minutes; look after 3. Out as soon as they're puffed and golden.",
-    "Marshmallows on"
-   ],
-   [
-    "14:40",
-    "K",
-    "Out. To the table on a trivet.",
-    "Out, to table"
+    "To the table on a trivet.",
+    "To table"
    ]
   ],
   "tips": [
    "Amounts are estimates; Krista's taste rules."
   ],
-  "status": "Mashed in the pan, on the counter. Into the fridge now."
+  "status": "Into the toaster oven now, covered."
  },
  {
   "id": "broccoli",
@@ -460,19 +436,19 @@ const DISHES = [
     "Box, fridge"
    ],
    [
-    "14:05",
+    "13:00",
     "C",
-    "Sauce into a pan on low with a splash of milk. Stir often until hot, about 15 minutes. Never let it boil.",
-    "Warm sauce gently"
+    "Sauce in a pan on low with a splash of milk. Stir until hot, about 15 minutes. Never let it boil.",
+    "Warm sauce"
    ],
    [
-    "14:25",
+    "13:15",
     "C",
-    "Broccoli into the {{13x9|33x23 cm}} foil pan. Pour the hot sauce over. Into the oven at 375°F, 20 minutes.",
-    "Pan + sauce, oven"
+    "Broccoli into the {{13x9|33x23 cm}} foil pan, hot sauce over, into the main oven beside the gratin at 375°F. 20 minutes.",
+    "Into oven"
    ],
    [
-    "14:45",
+    "13:35",
     "C",
     "Out. To the table.",
     "Out, to table"
@@ -482,7 +458,7 @@ const DISHES = [
    "No American cheese: the white sauce keeps it smooth. Grate your own cheddar (bagged shreds go grainy) and never boil it once the cheese is in.",
    "Gone thick or grainy? Off the heat, a splash of warm milk, whisk hard."
   ],
-  "status": "Blanched broccoli and sauce both in the fridge."
+  "status": "Both in the fridge. Sauce on at 1:00."
  },
  {
   "id": "brussels",
@@ -530,15 +506,15 @@ const DISHES = [
     "Cool, fridge"
    ],
    [
-    "14:35",
+    "13:35",
     "Mk",
-    "12-inch skillet on MEDIUM (not high: the glaze burns) with {{1 Tbsp|13 g}} olive oil. Half the sprouts, stirring, 4–5 minutes until hot through. Into a bowl under foil. Repeat with the rest.",
+    "12-inch skillet on MEDIUM (the glaze burns) with {{1 Tbsp|13 g}} olive oil. Half the sprouts, stirring, about 5 minutes until hot. Into a bowl under foil. Repeat with the rest.",
     "Reheat in skillet"
    ],
    [
-    "14:50",
+    "13:50",
     "Mk",
-    "Onto the platter. A drizzle of any glaze left over. Shave {{1½ oz|45 g}} Parmigiano and zest 1 lemon over. To the table.",
+    "Onto the platter. Shave {{1½ oz|45 g}} Parmigiano and zest 1 lemon over. To the table.",
     "Finish, serve"
    ]
   ],
@@ -546,44 +522,34 @@ const DISHES = [
    "Pancetta is salty: taste before adding more salt.",
    "Don't crowd the pan: one layer, or they steam instead of browning."
   ],
-  "status": "Cooked and glazed early. Into the fridge; reheat in the skillet at 2:35."
+  "status": "Cooked and glazed, in the fridge. Reheat at 1:35."
  }
 ];
 const OTHERS = [
  [
-  "12:25",
-  "K",
-  "Stacey's stuffing and carrots into the fridge until 1:25 if there's room."
- ],
- [
-  "13:15",
+  "12:55",
   "B",
-  "Light the Weber; set it for about 350°F, burners under one side only."
+  "Stacey's stuffing and carrots, covered, into the Keg at 350°F on the grate over the water pan. Lid shut. Check there's still charcoal burning."
  ],
  [
-  "13:25",
-  "K",
-  "Stacey's stuffing and scalloped carrots into the Weber, covered, on the unlit side. Lid shut. Hot through in 30–40 minutes."
+  "12:55",
+  "S",
+  "Set the table for 9. Two turkey platters, gravy boat, trivets, a serving spoon for each dish."
  ],
  [
-  "13:40",
-  "L",
-  "Spanakopita (already baked): warm it in the toaster oven at 350°F, about 10 minutes a batch, until crisp. Keep it in the fridge until then."
+  "13:35",
+  "B",
+  "Check the middle of Stacey's dishes is steaming hot. Spanakopita into the Keg for 10 minutes."
+ ],
+ [
+  "13:50",
+  "S",
+  "Water in every glass."
  ],
  [
   "14:00",
-  "L",
-  "Spanakopita out to the guests with the appetizers."
- ],
- [
-  "14:05",
-  "K",
-  "Check the middle of Stacey's dishes is steaming hot (165°F on the instant-read). Then turn the Weber to low, lid shut, until serving."
- ],
- [
-  "15:00",
   "K",
   "Sit down."
  ]
 ];
-const STATUS_AT = "12:25";
+const STATUS_AT = "12:55";
