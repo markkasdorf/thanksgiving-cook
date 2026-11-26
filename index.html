@@ -6,7 +6,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦃</text></svg>">
 <style>
 :root{--bg:#f7f1e6;--card:#fffdf8;--ink:#2b2118;--soft:#6f6253;--line:#e6dccb;--now:#fff1c9;--accent:#a8481c}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+*{box-sizing:border-box}html,body{overflow-x:hidden;max-width:100%}.nowline span:last-child{min-width:0}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 header{padding:20px 18px 8px;max-width:980px;margin:0 auto}
 h1{font:700 30px/1.1 Georgia,"Times New Roman",serif;margin:0}
@@ -103,8 +103,8 @@ function nowBox(n){if(n==null)return"";
  ${next.length?`<h2 style="margin-top:14px">Next</h2>`+next.map(o=>`<div class="nowline"><span class="who">${fmt(o.t)}</span><span><b>${PEOPLE[o.p]}</b> · ${esc(o.d.name)}: ${esc(o.x)}</span></div>`).join(""):""}</div>`;}
 function overview(){const n=nowMins();
  const hours=[8,9,10,11,12,13,14,15];
- const cell=(d,h)=>d.steps.map((s,i)=>[s,i]).filter(([s])=>Math.floor(mins(s[0])/60)===h).map(([s])=>`<div class="it"><span class="t">${fmt(s[0])}</span> <span class="p">${s[1]}</span><br>${esc(s[2].split(". ")[0].replace(/\.$/,""))}</div>`).join("");
- const others=h=>OTHERS.filter(s=>Math.floor(mins(s[0])/60)===h).map(s=>`<div class="it"><span class="t">${fmt(s[0])}</span> <span class="p">${s[1]}</span><br>${esc(s[2].split(". ")[0])}</div>`).join("");
+ const cell=(d,h)=>d.steps.map((s,i)=>[s,i]).filter(([s])=>Math.floor(mins(s[0])/60)===h).map(([s])=>`<div class="it"><span class="t">${fmt(s[0])}</span> <span class="p">${s[1]}</span><br>${esc(s[3]||s[2])}</div>`).join("");
+ const others=h=>OTHERS.filter(s=>Math.floor(mins(s[0])/60)===h).map(s=>`<div class="it"><span class="t">${fmt(s[0])}</span> <span class="p">${s[1]}</span><br>${esc(s[2].split(". ")[0].replace(/\.$/,""))}</div>`).join("");
  const grid=`<div class="grid"><table><thead><tr><th></th>${DISHES.map(d=>`<th><a href="#${d.id}" style="border-color:${d.color}">${d.name}</a></th>`).join("")}<th>Others</th></tr></thead><tbody>
  ${hours.map(h=>`<tr class="${n!=null&&Math.floor(n/60)===h?"cur":""}"><th>${fmt(h+":00").replace(":00","")}${h>=12?" pm":" am"}</th>${DISHES.map(d=>`<td>${cell(d,h)}</td>`).join("")}<td>${others(h)}</td></tr>`).join("")}
  </tbody></table></div>`;
