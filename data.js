@@ -9,7 +9,7 @@ const DISHES = [
   "goal": "Off the Keg about 1:25, breast 155–161°F, thigh 170°F+",
   "ingredients": [
    "{{16 lb|7.3 kg}} turkey, brined",
-   "Canola oil to coat",
+   "Canola oil to coat, about {{2 Tbsp|28 g}}",
    "Lump charcoal, {{15–20 lb|7–9 kg}}",
    "3–4 apple or cherry wood chunks",
    "Shield: metal plate wrapped in foil, then a big pan with {{1½ in|4 cm}} of water",
@@ -19,7 +19,7 @@ const DISHES = [
    [
     "08:35",
     "M",
-    "Out of the brine. Check the cavity is empty (no neck or giblet bag). Rinse inside and out. Pat it very dry: dry skin crisps, wet skin goes rubbery. Untie the legs; tuck the wing tips behind the back. Rub with about {{1 Tbsp|14 g}} oil. Breast probe in, not touching bone.",
+    "Out of the brine. Check the cavity is empty (no neck or giblet bag). Rinse inside and out. Pat it very dry: dry skin crisps, wet skin goes rubbery. Untie the legs; tuck the wing tips behind the back. Rub with about {{2 Tbsp|28 g}} oil. Breast probe in, not touching bone.",
     "Out of brine, dry, oil, probe"
    ],
    [
@@ -88,7 +88,7 @@ const DISHES = [
    "{{16 lb|7.3 kg}} turkey, brined",
    "1 apple, ½ onion, 1 cinnamon stick, {{1 cup|240 g}} water (aromatics)",
    "4 rosemary sprigs, 6 sage leaves",
-   "Canola oil to coat, about {{1 Tbsp|14 g}}",
+   "Canola oil to coat, about {{2 Tbsp|28 g}}",
    "Roasting pan and rack",
    "Probe thermometer"
   ],
@@ -108,7 +108,7 @@ const DISHES = [
    [
     "10:15",
     "M",
-    "Hot aromatics, 4 rosemary sprigs and 6 sage leaves into the cavity. Rub the skin with about {{1 Tbsp|14 g}} oil. Lowest rack at 500°F. Timer 30 minutes.",
+    "Hot aromatics, 4 rosemary sprigs and 6 sage leaves into the cavity. Rub the skin with about {{2 Tbsp|28 g}} oil. Lowest rack at 500°F. Timer 30 minutes.",
     "In at 500°F"
    ],
    [
@@ -246,7 +246,7 @@ const DISHES = [
    [
     "10:00",
     "S",
-    "Peel the {{6 lb|2.7 kg}} of potatoes. Keep them whole, under a damp towel. Don't soak them in water.",
+    "Peel the {{6 lb|2.7 kg}} of potatoes. Keep them whole in a bowl of cold water so they don't go grey. Pat dry just before slicing. (Soaking whole is fine; it's the slices that mustn't be rinsed.)",
     "Peel potatoes"
    ],
    [
@@ -370,7 +370,7 @@ const DISHES = [
    [
     "14:20",
     "K",
-    "Corn flakes and {{about 3 cups|about 150 g}} mini marshmallows on. Back in about 20 minutes until puffed and golden, no black spots.",
+    "Corn flakes and {{about 3 cups|about 150 g}} mini marshmallows on. Back in about 20 minutes until puffed and golden. Look at 10 minutes: marshmallows go from golden to black fast.",
     "Topping on"
    ],
    [
@@ -415,7 +415,7 @@ const DISHES = [
    [
     "09:00",
     "C",
-    "Blanch the broccoli 2 minutes, until bright green. Drain in a colander in a clean bowl, not the sink (raw turkey was there). Spread on a towel to dry.",
+    "Blanch the broccoli 2 minutes, until bright green. Lift it out with a slotted spoon or spider onto a towel-lined sheet pan to dry. Don't use the sink: raw turkey is being rinsed there until 9:30.",
     "Blanch 2 min, dry"
    ],
    [
@@ -437,9 +437,9 @@ const DISHES = [
     "Box, fridge"
    ],
    [
-    "13:15",
+    "14:05",
     "C",
-    "Sauce back on the lowest heat with a splash of milk. Stir often. Never let it boil.",
+    "Sauce into a pan on low with a splash of milk. Stir often until hot, about 15 minutes. Never let it boil.",
     "Warm sauce gently"
    ],
    [
@@ -508,7 +508,7 @@ const DISHES = [
    [
     "14:15",
     "Mk",
-    "Batch 1: skillet on medium-high with {{1 Tbsp|13 g}} pancetta fat and {{1 Tbsp|13 g}} olive oil. A third of the sprouts, cut side down, one layer. Don't touch them for 5 minutes, until the faces are deep brown. Add {{2 Tbsp|30 g}} water, lid on, 2 minutes, until a knife slides into the core. A pinch of salt. Into the bowl, foil over.",
+    "Batch 1: skillet on medium-high with {{1 Tbsp|13 g}} pancetta fat and {{1 Tbsp|13 g}} olive oil (if the pancetta fat runs out, use olive oil). A third of the sprouts, cut side down, one layer. Don't touch them for 5 minutes, until the faces are deep brown. Add {{2 Tbsp|30 g}} water, lid on, 2 minutes, until a knife slides into the core. A pinch of salt. Into the bowl, foil over.",
     "Batch 1"
    ],
    [
