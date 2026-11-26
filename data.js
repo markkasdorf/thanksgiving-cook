@@ -477,7 +477,7 @@ const DISHES = [
    "{{3 lb|1.36 kg}} Brussels sprouts",
    "{{6 oz|170 g}} diced pancetta",
    "4 shallots ({{about 6 oz|160 g}}), halved and thinly sliced",
-   "{{3 Tbsp|40 g}} olive oil",
+   "{{6 Tbsp|80 g}} olive oil (the pancetta fat went into the glaze today)",
    "{{¼ cup|60 ml}} thick balsamic (or {{½ cup|128 g}} regular)",
    "{{2 Tbsp|42 g}} honey",
    "{{1½ oz|45 g}} Parmigiano, shaved with a peeler",
@@ -496,7 +496,7 @@ const DISHES = [
    [
     "09:30",
     "Mk",
-    "Glaze, with the thick balsamic: {{¼ cup|60 ml}} thick balsamic and {{1 Tbsp|21 g}} honey in a small pan on low, just until blended, about 1 minute. Don't simmer it: it's already reduced. Taste: if it's sweet enough, skip the honey. Too thick to drizzle? A teaspoon of water. (With thin balsamic instead: {{½ cup|128 g}} plus {{2 Tbsp|42 g}} honey, simmered about 8 minutes until reduced by half.) Into a jar.",
+    "Glaze, with the thick balsamic: {{¼ cup|60 ml}} thick balsamic and {{1 Tbsp|21 g}} honey in a small pan on low, just until blended, about 1 minute. Don't simmer it: it's already reduced. Taste: if it's sweet enough, skip the honey. Too thick to drizzle? A teaspoon of water. (With thin balsamic instead: {{½ cup|128 g}} plus {{2 Tbsp|42 g}} honey, simmered about 8 minutes until reduced by half.) Into a jar. (Today the pancetta fat went into the glaze too. That's fine: it's now a warm balsamic dressing. Shake or whisk it before using.)",
     "Glaze"
    ],
    [
@@ -508,25 +508,25 @@ const DISHES = [
    [
     "14:05",
     "Mk",
-    "Set up by the stove: sprouts, pancetta fat, olive oil, salt, pepper, a big bowl, foil. Glaze, pancetta, shallots, Parmesan and lemon lined up for the finish.",
+    "Set up by the stove: sprouts, olive oil, salt, pepper, a big bowl, foil. Glaze (warmed and whisked), pancetta, shallots, Parmesan and lemon lined up for the finish.",
     "Set up by the stove"
    ],
    [
     "14:15",
     "Mk",
-    "Batch 1: skillet on medium-high with {{1 Tbsp|13 g}} pancetta fat and {{1 Tbsp|13 g}} olive oil (if the pancetta fat runs out, use olive oil). A third of the sprouts, cut side down, one layer. Don't touch them for 5 minutes, until the faces are deep brown. Add {{2 Tbsp|30 g}} water, lid on, 2 minutes, until a knife slides into the core. A pinch of salt. Into the bowl, foil over.",
+    "Batch 1: skillet on medium-high with {{2 Tbsp|26 g}} olive oil. A third of the sprouts, cut side down, one layer. Don't touch them for 5 minutes, until the faces are deep brown. Add {{2 Tbsp|30 g}} water, lid on, 2 minutes, until a knife slides into the core. A pinch of salt. Into the bowl, foil over.",
     "Batch 1"
    ],
    [
     "14:24",
     "Mk",
-    "Batch 2, the same way: {{1 Tbsp|13 g}} fat, {{1 Tbsp|13 g}} oil, a third of the sprouts, 5 minutes, {{2 Tbsp|30 g}} water, lid on 2 minutes.",
+    "Batch 2, the same way: {{2 Tbsp|26 g}} olive oil, a third of the sprouts, 5 minutes, {{2 Tbsp|30 g}} water, lid on 2 minutes.",
     "Batch 2"
    ],
    [
     "14:33",
     "Mk",
-    "Batch 3, the same way: {{1 Tbsp|13 g}} fat, {{1 Tbsp|13 g}} oil, the last of the sprouts, 5 minutes, {{2 Tbsp|30 g}} water, lid on 2 minutes.",
+    "Batch 3, the same way: {{2 Tbsp|26 g}} olive oil, the last of the sprouts, 5 minutes, {{2 Tbsp|30 g}} water, lid on 2 minutes.",
     "Batch 3"
    ],
    [
